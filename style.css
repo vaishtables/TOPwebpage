@@ -1,0 +1,15 @@
+body {
+    font-family: "Roboto";
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .first {
+    background: #1F2937
+  }
+  .fourth {
+    background: #EFE7EB
+  }
