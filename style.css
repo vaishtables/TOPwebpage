@@ -1,15 +1,122 @@
 body {
-    font-family: "Roboto";
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .first {
-    background: #1F2937
-  }
-  .fourth {
-    background: #EFE7EB
-  }
+  font-family: Roboto;
+}
+.container {
+  margin: 0 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  display: flex;
+  font-size: 18px;
+  gap: 20px;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-subtext {
+  font-size: 18px;
+}
+
+.hero-button {
+  background: lightblue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border-style: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-main {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.info-figs {
+  display: flex;
+  gap: 100px;
+}
+
+.info-subtext {
+  text-align: center;
+}
+
+.quote-main {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote-subtext {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action {
+  background: lightblue;
+}
+
+.action-main {
+}
+.action-subtext {
+}
+.action-button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  border-color: white;
+  background: lightblue;
+  color: white;
+}
+
+.one {
+  background: black;
+  color: white;
+}
+
+.two {
+  background: white;
+  color: black;
+}
+
+.three {
+  background: lightgrey;
+  color: black;
+}
+
+.four {
+  background: white;
+  color: white;
+}
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+}
